@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+.backgroundStyle1{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+76,131313+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 76%, #131313 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 76%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 76%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+  background: linear-gradient(to bottom, #ffffff 0%,#ffffff 76%,#2e2f36 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#131313',GradientType=0 );
+  height: 100px !important;
+  position: absolute;
+  width: 100%;
+  bottom: 400px;
+  opacity: 0.6;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.backgroundStyle2{
+  background-color: rgba(46, 46, 55, 1);
+  height:48vw !important;
+  position: absolute;;
+  width: 100%;
+  bottom:-300px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.leftholder{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+76,131313+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 76%, #131313 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 76%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 76%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+  float: left;
+  background: linear-gradient(to bottom, #444444 0%,#2e2f36 6%,#131313 100%);
+  position: absolute;
+  z-index: 111;
+  left: 0;
+  height: 1000px;
+  width: 300px;
+  opacity: 0.5;
+  color: #fff;
+  padding: 1rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rightholder{
+  position: absolute;
+  left:400px;
+  width: 1200px;
+  height:1000px;
+  color: #fff;
+  padding: 1rem;;
+  top:300px
 }
-
-.App-link {
-  color: #61dafb;
+.nameholder{
+  margin:10rem 2rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nameholder div{
+  margin: 1rem 0rem;
+  color: #00d3fe;
+}
+.userName{
+  font-size: 2rem;
+  color: #ffffff;
+  padding: 0 12rem;
+}
+.popularity{
+  padding: 0 12rem;
+}
+.popularity h3{
+  font-size: 20px;
+  color: #ffffff;
+  float: left;
+}
+.popularity input{
+  width: 400px;
+  margin: 25px 0;
+}
+.biography{
+  color: #ffffff;
+  background: #000;
+  padding: 1rem;
+  margin: 0 12rem;
+}
+.biography p{
+  line-height: 1.75;
 }
